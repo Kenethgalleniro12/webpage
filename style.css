@@ -1,87 +1,200 @@
-.navbar{
+* {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.navbar {
     height: 10vh;
+    background-color: #064d4d; /* Softer teal */
+
 }
-.navbar-brand{
+.navbar-brand {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 45px !important;
-    color: rgb(230, 10, 175)!important;
+    font-size: 20%;
+    color: #a3d4d4 !important; /* Softer cyan */
 }
-.btn{
-    padding: 12px !important;
+.btn {
+    padding: 12px 35px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px !important;
-    border-radius: 0 !important;
-    transition: all ease-in-out .3s !important;
+    border-radius: 0;
+    transition: all ease-in-out .3s;
 }
-
-.btn-brand{
-    background-color: rgb(15, 134, 9) !important;
-    color: rgb(209, 211, 207) !important;
+.btn-brand {
+    background-color: #f9f9f9 !important; /* Softer white */
+    color: #2d322c !important; /* Softer dark gray */
+    border: 2px solid #2d322c !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
 }
-
-.btn-brand:hover{
-    border: 2px solid rgb(15, 134, 9) !important;
-    color: rgb(6, 6, 212) !important; 
+.btn-brand:hover {
+    background-color: #4caf50 !important; /* Softer green */
+    color: #ffffff !important;
+    border: 2px solid #278a7d !important;
 }
-
-.btn-brand-navbar{
-    border: 2px solid rgb(26, 97, 38) !important;
-    color: rgb(25, 90, 90) !important;
+.btn-brand-navbar {
+    border: 2px solid #1a6126 !important;
+    color: #4ad4d4 !important;
 }
-
 .navbar .nav-link {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     text-transform: uppercase;
+    color: #f8f9f8;
 }
-
-#banner{
-    background: url('pop.jpg');
+#banner {
+    background: url('m.jpg');
     height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
-
-h1{
+h1 {
     font-family: 'Times New Roman', Times, serif;
-    
-    color:rgb(230, 10, 193);
-
+    color: #f5f5f5; /* Softer dark red */
 }
- #banner p{
+#banner p {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color:rgb(232, 15, 156);
- }
-
- .card-img-top {
-    width: 35% !important;   
+    color: #e3e0eb; /* Softer purple */
+}
+.card-img-top {
+    width: 35% !important;
 }
 .card {
-padding: 20px;
-border: 3px solid rgb(110, 168, 34) !important;
-transition: all ease-in-out .4s;    
-
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid #6ea822 !important; /* Softer green */
+    transition: all ease-in-out .4s;
 }
-.card:hover{
-box-shadow: 0 0 10px 5px rgb(118, 127, 108) !important;
-border-color: 3px solid rgb(213, 223, 192) !important;
-transform: scale(1.1);
-background-color: rgb(149, 164, 172);
+.card:hover {
+    box-shadow: 0 0 10px 5px #767f6c !important; /* Softer gray */
+    border-color: #d5dfc0 !important; /* Softer beige */
+    transform: scale(1.1);
+    background-color: #95a4ac; /* Softer blue-gray */
 }
-
-.card:hover .card-title, .card:hover .card-text{
-color: rgb(255, 255, 255) !important;
-} 
-section{
-padding: 100px
+.card:hover .card-title, .card:hover .card-text {
+    color: #ffffff !important;
 }
-#sugpon h2{
-font-family: 'Times New Roman', Times, serif;
-color: rgb(67, 93, 93);
-font-size: 65px;
-margin-bottom: 30px;
+section {
+    padding: 100px 0px;
 }
- 
+#sugpon h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #435d5d; /* Softer teal */
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+#about {
+    background-color: #0c6087; /* Softer black */
+}
+#about img {
+    border: 5px solid #d2691e; /* Softer chocolate */
+}
+#about .btn-brand {
+    background-color: #ffdb0d !important; /* Softer chocolate */
+    color: #362a22 !important; /* Softer yellow */
+}
+#about h2 {
+    color: #f1f1f1 !important; /* Softer blue */
+    font-size: 55px !important;
+}
+.wew {
+    width: 65px;
+}
+.testimonials {
+    border: 3px solid #17d18d; /* Softer green */
+    padding: 20px;
+    margin: 20px;
+}
+.testimonials:hover {
+    transform: scale(1.1);
+    color: #d2691e; /* Softer chocolate */
+    border: 3px solid #18e00a; /* Softer magenta */
+}
+#reviews h2 {
+    font-size: 55px;
+}
+#faq {
+    background-color: #a3a0a0; /* Softer gray */
+}
+.faq-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+.accordion-button {
+    background-color: rgba(236, 233, 238, 0.642) !important;
+    border: none;
+    border-bottom: 1px solid #edeeed;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343493 !important; /* Softer blue */
+    transition: background-color 0.3s ease, color 0.3s;
+}
+.accordion-body {
+    border-left: 3px solid #d2691e; /* Softer chocolate */
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9f8 !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #2d322c !important; /* Softer dark gray */
+    color: #343493 !important;
+}
+.accordion-button:hover {
+    background-color: #d2691e !important; /* Softer chocolate */
+    color: #343493 !important;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #2d322c; /* Softer dark gray */
+}
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer ul.list-unstyled li a:hover {
+    color: #d2691e; /* Softer chocolate */
+}
+#footer button {
+    border-radius: 1px;
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: auto !important;
+    }
+    #banner h1 {
+        font-size: 40px !important;
+    }
+    #sugpon h2 {
+        font-size: 40px !important;
+    }
+    #sugpon .col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section {
+        padding: 60px 20px !important;
+    }
+    #footer {
+        padding: 60px 20px !important;
+    }
+    #about img {
+        height: 350px !important;
+        width: 350px;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+    #services .card {
+        margin-top: 20px !important;
+    }
+    section {
+        padding: 60px 20px !important;
+    }
+}
